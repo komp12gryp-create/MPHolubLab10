@@ -3,7 +3,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF8E1"
+    android:background="@color/background_color"
     android:fillViewport="true">
 
     <LinearLayout
@@ -18,7 +18,7 @@
             android:fontFamily="serif"
             android:gravity="center"
             android:text="Лабораторна робота №10"
-            android:textColor="#4E342E"
+            android:textColor="@color/title_color"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
             android:fontFamily="serif"
             android:gravity="center"
             android:text="Збереження даних користувача"
-            android:textColor="#4E342E"
+            android:textColor="@color/title_color"
             android:textSize="18sp" />
 
         <EditText
@@ -40,8 +40,8 @@
             android:fontFamily="serif"
             android:hint="Введіть ім'я та прізвище"
             android:inputType="textPersonName"
-            android:textColor="#6A1B9A"
-            android:textColorHint="#8D6E63" />
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_color" />
 
         <EditText
             android:id="@+id/user_number_group"
@@ -51,26 +51,26 @@
             android:fontFamily="serif"
             android:hint="Введіть номер групи"
             android:inputType="text"
-            android:textColor="#6A1B9A"
-            android:textColorHint="#8D6E63" />
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_color" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:backgroundTint="#6A1B9A"
+            android:backgroundTint="@color/btn_color"
             android:onClick="saveData"
             android:text="Записати дані"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#6A1B9A"
+            android:backgroundTint="@color/btn_color"
             android:onClick="getData"
             android:text="Показати дані"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
