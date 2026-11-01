@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MPHolubLab10</string>
+    <string name="lab_title">Лабораторна робота №10</string>
+    <string name="data_title">Збереження даних користувача</string>
+    <string name="name_hint">Введіть ім\'я та прізвище</string>
+    <string name="group_hint">Введіть номер групи</string>
+    <string name="save_data">Записати дані</string>
+    <string name="show_data">Показати дані</string>
+    <string name="data_saved">Дані записано</string>
+    <string name="data_restored">Дані відновлено</string>
+    <string name="no_saved_data">Немає збережених даних</string>
 </resources>

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             user_name_field.setText("");
             user_number_group.setText("");
-            Toast.makeText(this, "Дані записано", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.data_saved), Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -54,9 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
             user_name_field.setText(userName);
             user_number_group.setText(userGroup);
-            Toast.makeText(this, "Дані відновлено", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.data_restored), Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
-            Toast.makeText(this, "Немає збережених даних", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.no_saved_data), Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Лабораторна робота №10"
+            android:text="@string/lab_title"
             android:textColor="@color/title_color"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -28,7 +28,7 @@
             android:layout_marginTop="8dp"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Збереження даних користувача"
+            android:text="@string/data_title"
             android:textColor="@color/title_color"
             android:textSize="18sp" />
 
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:fontFamily="serif"
-            android:hint="Введіть ім'я та прізвище"
+            android:hint="@string/name_hint"
             android:inputType="textPersonName"
             android:textColor="@color/text_color"
             android:textColorHint="@color/hint_color" />
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:fontFamily="serif"
-            android:hint="Введіть номер групи"
+            android:hint="@string/group_hint"
             android:inputType="text"
             android:textColor="@color/text_color"
             android:textColorHint="@color/hint_color" />
@@ -60,7 +60,7 @@
             android:layout_marginTop="28dp"
             android:backgroundTint="@color/btn_color"
             android:onClick="saveData"
-            android:text="Записати дані"
+            android:text="@string/save_data"
             android:textColor="@color/white" />
 
         <Button
@@ -69,7 +69,7 @@
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/btn_color"
             android:onClick="getData"
-            android:text="Показати дані"
+            android:text="@string/show_data"
             android:textColor="@color/white" />
 
     </LinearLayout>
